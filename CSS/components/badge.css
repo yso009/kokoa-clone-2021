@@ -1,0 +1,26 @@
+.badge {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  color: white;
+  font-weight: 600;
+}
+
+.dodge {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.dodge_position {
+  right: 15px;
+  top: 45px;
+}

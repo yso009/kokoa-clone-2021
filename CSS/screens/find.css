@@ -1,0 +1,46 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon i {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.recomended-freinds {
+  border-bottom: var(--main-border);
+  border-top: var(--main-border);
+  margin: 25px 0px;
+  padding: 25px 0px;
+}
+
+.recomended-freinds__title {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.recomended-freinds span {
+  display: block;
+  margin: 100px 0px;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 25px;
+}
+
+.open-chat__header span {
+  opacity: 0.6;
+}
