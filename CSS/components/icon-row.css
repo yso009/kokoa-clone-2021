@@ -15,11 +15,6 @@
   margin-bottom: 15px;
 }
 
-.icon-row__icon2 {
-  justify-content: center;
-  align-items: center;
-}
-
 .icon-row2 {
   margin-top: 35px;
   display: flex;
@@ -27,5 +22,7 @@
 }
 
 .icon-row__icon2 {
-  margin-right: 61px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 62px;
 }
