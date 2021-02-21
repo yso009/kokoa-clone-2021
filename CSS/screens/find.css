@@ -102,3 +102,20 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+    font-size: 20px;
+  }
+  100% {
+    color: white;
+  }
+}
+.open-post__heart-count:hover i {
+  will-change: font-size;
+  animation: heartbeat 1s linear infinite;
+}

@@ -13,3 +13,21 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+@keyframes fa-cog {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.screen-header__icons .fa-cog:hover,
+.screen-header__icons .fa-search:hover,
+.screen-header__icons .fa-music:hover,
+.screen-header__icons .fa-comment-dots:hover {
+  animation: fa-cog 3s ease-in-out infinite;
+}
